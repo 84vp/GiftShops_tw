@@ -1,0 +1,27 @@
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color:inherit;
+}
+ul {
+    margin:none
+    }
+.main-menu {
+    margin-top:15px;
+     background-color:  #05aecc;
+     height: 70px;
+}
+.main-menu-nav {   
+    vertical-align: center;
+}
+.main-menu-link {
+    display: inline-block;    
+    padding: 22px 25px;
+    color: white;
+    height: 70px;
+    transition: all .5s;
+}
+.main-menu-link:hover {
+    background-color: white;
+    color:#ef5966;
+}

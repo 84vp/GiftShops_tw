@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+section {
+  margin-top: 15px;
+}
+.no-padding {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
+.serch-panel-wrapper {
+  padding: 50px 55px;
+  height: 165px;
+  background-color: #f0626e;
+}
+.serch-panel-wrapper .serch-panel input {
+  font-size: 20px;
+  padding-left: 20px;
+  height: 70px;
+  width: 90%;
+}
+.serch-panel-wrapper .serch-panel input::placeholder {
+  padding: 5px;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #c2c2c2;
+}
+.serch-panel-wrapper .serch-panel:after {
+  position: absolute;
+  font-family: "Material Icons";
+  content: 'search';
+  color: white;
+  font-size: 70px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-box-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-item {
+  flex: 1 1 auto;
+}
+.flex-end {
+  align-content: flex-end;
+}
+.flex-stretch {
+  align-content: stretch;
+}
