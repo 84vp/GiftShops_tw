@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TopNavComponent } from './top-nav/top-nav.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { NewProdComponent } from './new-prod/new-prod.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopNavComponent,
+    MainNavComponent,
+    NewProdComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +21,11 @@ import { AppComponent } from './app.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent,
+    MainNavComponent,
+    TopNavComponent,
+    NewProdComponent
+    ]
 })
 export class AppModule { }

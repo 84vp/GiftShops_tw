@@ -1,0 +1,66 @@
+.top-nav-menu {
+    text-align: right;
+    padding: 10px 0px;
+}
+a {
+text-decoration: none;
+font-family: Lato;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #434343;
+    }
+    a+a {
+        padding-left: 25px;
+    }
+.admin-nav-menu {
+    height: 90px;
+    
+    background-color: #f6f6f6;
+}
+.button {
+    max-height: 90px;
+    padding: 35px 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  
+}
+.button a {    
+    color: #ffffff;
+}
+.button:nth-child(odd) {
+    background-color: #05aecc;
+}
+.button:nth-child(even) {
+    background-color: #f0626e;
+}
+.button + .button {
+    margin-left:4px
+}
+.flex-basis-15 {
+    flex-basis: 15%
+}
+.flex-basis-85 {    
+    flex-basis: 85%
+}
+.Chart, .Whishlost {
+    padding-right: 25px;
+}
+.Chart:after {
+    font-family: 'Material Icons';
+    content: "shopping_cart";
+    font-size: 28px;
+    margin-left: 5px;
+    position:absolute;
+}
+.Whishlost:after {
+    font-family: 'Material Icons';
+    content: "card_giftcard";
+    font-size: 28px;
+    margin-left: 5px;
+    position:absolute;
+}
+ 

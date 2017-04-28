@@ -1,0 +1,22 @@
+<div class="ph-container">
+  <div class="flex-box-row">
+    <div class="flex-item flex-basis-15">
+        <img class="logo-tp ph-mrg-top-20" src="src/img/logo.png">
+    </div>
+    <div class="flex-item flex-basis-85">
+    <div class=flex-box-col>
+      <div class="flex-item flex-end">
+        <nav class="top-nav-menu">
+  <a *ngFor="let link of links" href={{link.src}} class="top-nav-link">{{link.text}}</a>
+</nav>
+      </div>
+      <div class="flex-item flex-stretch ">
+        <nav class="admin-nav-menu ph-text-right">
+          <button class="button" *ngFor="let adminLink of adminLinks"><a class={{adminLink.text}} href={{adminLink.src}}>{{adminLink.text}}</a></button>
+        </nav>
+      </div>
+      
+    </div>
+  </div>
+
+</div>

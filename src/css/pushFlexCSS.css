@@ -1,0 +1,33 @@
+/*----FLEX CLASSES-------*/
+.e-flex-box-row {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+.e-flex-box-row + .e-flex-box-row {
+  margin-top: 5px;
+}
+/*  margin for flex-item box contact*/
+.e-flex-box-row .e-flex-item + .e-flex-item {
+  margin-left: 5px;
+}
+/*disable bag with flex-item box if it flex-box-row insaide flex-box-col*/
+.e-flex-item .e-flex-box-row .e-flex-item + .e-flex-item {
+  margin-top: 0;
+}
+/*  margin for flex-item box contact*/
+.e-flex-box-col .e-flex-item + .e-flex-item {
+  margin-top: 5px;
+}
+/*disable bag with flex-item box if it flex-box-col insaide flex-box-row*/
+.e-flex-item .e-flex-box-col .e-flex-item + .e-flex-item {
+  margin-left: 0px;
+}
+.e-flex-box-col {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+}
+.e-flex-item {
+  flex: 1 1 auto;
+}
