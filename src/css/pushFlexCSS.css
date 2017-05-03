@@ -1,4 +1,138 @@
 /*----FLEX CLASSES-------*/
+/* FLEX CONTAINER CLASSES*/
+.flex-box {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-wrap-rev {
+  flex-wrap: wrap-reverse;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+/* FLEX ELEMENTS JUSTIFY(ALIGN) BY MAIN AXIS*/
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.flex-around {
+  justify-content: space-around;
+}
+/* FLEX ELEMENTS JUSTIFY(ALIGN) BY CROSS AXIS*/
+.flex-cross-start {
+  align-items: flex-start;
+}
+.flex-cross-end {
+  align-items: flex-end;
+}
+.flex-cross-center {
+  align-items: center;
+}
+.flex-cross-besaline {
+  align-items: baseline;
+}
+.flex-cross-stretch {
+  align-items: stretch;
+}
+/* FLEX GRUPS ELEMENTS JUSTIFY(ALIGN) BY CROSS AXIS*/
+.flex-cross-start {
+  align-content: flex-start;
+}
+.flex-cross-end {
+  align-content: flex-end;
+}
+.flex-cross-between {
+  align-content: space-between;
+}
+.flex-cross-around {
+  align-content: space-around;
+}
+.flex-cross-stretch {
+  align-content: stretch;
+}
+/* FLEX ITEMS CLASSES */
+.flex-i {
+  display: flex;
+}
+.flex-i-auto {
+  flex: auto;
+  display: flex;
+}
+.flex-i-default {
+  flex: 1 1 auto;
+  display: flex;
+}
+/* FLEX ITEMS ORDERS */
+.flex-i-order-1 {
+  order: 1;
+}
+.flex-i-order-2 {
+  order: 2;
+}
+.flex-i-order-3 {
+  order: 3;
+}
+.flex-i-order-4 {
+  order: 4;
+}
+.flex-i-order-5 {
+  order: 5;
+}
+/* FLEX ITEMS GROW */
+.flex-i-grow-1 {
+  flex-grow: 1;
+}
+.flex-i-grow-2 {
+  flex-grow: 2;
+}
+.flex-i-grow-3 {
+  flex-grow: 3;
+}
+.flex-i-grow-4 {
+  flex-grow: 4;
+}
+.flex-i-grow-5 {
+  flex-grow: 5;
+}
+/* FLEX ITEMS shrink */
+.flex-i-shrink-2 {
+  flex-shrink: 2;
+}
+.flex-i-shrink-3 {
+  flex-shrink: 3;
+}
+.flex-i-shrink-4 {
+  flex-shrink: 4;
+}
+.flex-i-shrink-5 {
+  flex-shrink: 5;
+}
+.flex-i-shrink-6 {
+  flex-shrink: 6;
+}
+/* FLEX ITEMS BASIK PARAMETERS*/
+.flex-1_5 {
+  flex: 1 2 20%;
+}
+.flex-2_5 {
+  flex: 2 1 40%;
+}
 .e-flex-box-row {
   display: flex;
   justify-content: space-between;

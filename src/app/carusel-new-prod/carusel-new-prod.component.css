@@ -1,0 +1,9 @@
+@import "/src/css/slick/slick.css";
+@import "/src/css/slick/slick-theme.css";
+
+.slick-active:nth-child(3n+2) img {
+    margin: auto;
+}
+.slick-active:nth-child(3n+3) img {
+    float: right;
+}

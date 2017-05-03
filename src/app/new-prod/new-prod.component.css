@@ -1,0 +1,24 @@
+.btn-control {
+    text-align: center;
+    font-size:30px;
+    color: white;
+    width: 70px;
+    height: 80px;
+  }
+  .btn-control+ .btn-control {
+      margin-left: 1px;
+  }
+  .controls-box {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-end; 
+  }
+  button .slick-prev {
+    width: 70px;
+    right: 71px;
+    display: block;
+    top: -65px;
+    background: red;
+    height: 80px;
+  }
+ 

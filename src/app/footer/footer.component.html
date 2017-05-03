@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-12">
+    <label class="col-title">shopping with us</label>
+    <ul class="footer-nav list-unstyled">      
+      <li class="footer-nav-link"  *ngFor="let link of links"><a href="{{link.src}}"> {{link.title}}</a></li>      
+    </ul>
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-12">
+    <label class="col-title">about us</label>
+    <ul class="footer-nav list-unstyled">      
+      <li class="footer-nav-link"  *ngFor="let linksAbout of linksAbouts"><a href="{{linksAbout.src}}"> {{linksAbout.title}}</a></li>      
+    </ul>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">
+    <label class="col-title">selling with us</label>
+    <ul class="footer-nav list-unstyled">      
+      <li class="footer-nav-link" *ngFor="let selingLink of selingLinks">
+        <a href="{{selingLink.src}}"> {{selingLink.title}}</a>
+      </li>     
+     
+    </ul>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <label class="col-title">
+Signup newsletter
+</label>
+    <div class="subscrib-box">
+      <div class="domain-fild">
+        <label>e.g.: abc@domain.com</label>
+      </div>
+      <div class="btn-wrapper bg-blue">
+        <a class="btn-subskribe">Subscribe now</a>
+      </div>
+    </div>
+    <div class="social-box">
+      <label class="col-title">Keep in touch</label>
+      <div class="social-links-box">
+          <ul class="list-inline list-unstyled">
+            <li class="socialLink"*ngFor="let soclink of soclinks">
+              <a href="{{soclink.src}}">
+                <img src="{{soclink.imgsrc}}">
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <label>
+      Copyright © 2014 Gift Shop,  All right reserved
+    </label>
+    <label class="ph-float-right">
+      Designed by Amysxain
+    </label>
+  </div>

@@ -1,0 +1,41 @@
+.slick-active:nth-child(4n+2) .img-wrapper {
+    margin-left:5px;
+}
+.slick-active:nth-child(4n+3) .img-wrapper {
+    margin-left:10px;
+}
+
+.slick-active:nth-child(4n+4) .img-wrapper {
+    margin-right: 0;
+    margin-left: auto;
+}
+.prod-title {
+    padding: 12px 12px 5px 12px;
+    border-bottom: solid 1px #dddddd;
+}
+.prod-card-nav {
+    z-index: 200;
+    background-color: white;
+    position: absolute;
+    bottom: 1px;
+    width: 268px;
+}
+.prod-card-nav .alink {
+    color: #B9B9B9;
+    height:50px;
+    margin: auto;
+    padding: 15px
+}
+.alink + .alink {
+    border-left: solid 1px #dddddd;
+}
+.prise-box {
+        position: relative;
+    left: 1px;
+}
+.prise {color: #ffffff}
+.img-wrapper {
+    width: 270px;
+  height: 400px;  
+  border: solid 1px #dddddd;
+}

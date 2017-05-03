@@ -1,0 +1,64 @@
+.col-title {
+    text-transform: uppercase;
+    margin: 45px 0;
+    font-family: Lato;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: left;
+  color: #434343;
+}
+a {
+    text-decoration: none;
+}
+.footer-nav a {
+    font-family: Lato;
+    font-size: 16px;
+    color: #676767;
+    transition: color 0.5s ease;
+}
+.footer-nav a:hover {
+    color:#bdb8b8
+}
+.subscrib-box{
+    font-family: Lato;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.socialLink {
+    transition: opacity 0.5s;
+}
+.socialLink:hover {
+    opacity: 0.6
+}
+.btn-wrapper {
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+    transition: background-color 0.5s;
+}
+.btn-wrapper:hover {
+        background-color: #9e9e9e;
+}
+.btn-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+.domain-fild {
+    padding: 25px;
+    border: solid 1px #dedede;
+}
+.domain-fild, .btn-wrapper, .subscrib-box {
+    width: 100%;
+} 
+.footer-bottom {
+    font-family: Lato;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: left;
+  color: #434343;
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #b9b9b9;
+}
